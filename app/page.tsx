@@ -1,12 +1,6 @@
 import Link from "next/link";
-import Image from "next/image";
-import banquetBliss from "public/logos/banquetBliss.png";
-import fuelBot from "public/logos/fuelBot.png";
-import pitchPredictor from "public/logos/pitchPredictor.png";
 import Badge from "./components/Badge";
 import ArrowIcon from "./components/ArrowIcon";
-import tedxgpcet from "public/logos/tedxgpcet.png";
-import microsoft from "public/logos/microsoft.png";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -55,21 +49,7 @@ export default function Page() {
 				<p>
 					<strong>Work Life</strong>
 					<br />
-					My job is to create user-friendly digital experiences, and I’ve worked on various projects that showcase my technical skills and creativity. Recently, I interned as a <strong>UI/UX Intern</strong> at{" "}
-					<span className="not-prose">
-						<Badge href="#">
-							<Image
-								src={banquetBliss}
-								alt="Banquet Bliss"
-								height={16}
-								width={16}
-								className={"pr-1"}
-							/>
-							BanquetBliss
-						</Badge>
-					</span>, where I designed the complete banquet hall website. I have also developed a{" "}
-					<strong>Fuel Delivery Bot</strong>, using Python and Google Maps API for location-based fuel delivery, and a{" "}
-					<strong>Pitch Potential Predictor</strong> that integrates AI for evaluating business pitches.
+					My job is to create user-friendly digital experiences, and I’ve worked on various projects that showcase my technical skills and creativity. Recently, I interned as a <strong>UI/UX Intern</strong> at <strong>BanquetBliss</strong>, where I designed the complete banquet hall website. I have also developed a <strong>Fuel Delivery Bot</strong>, using Python and Google Maps API for location-based fuel delivery, and a <strong>Pitch Potential Predictor</strong> that integrates AI for evaluating business pitches.
 				</p>
 			</div>
 
@@ -77,13 +57,7 @@ export default function Page() {
 				<p>
 					<strong>Leadership and Community Involvement:</strong>
 					<br />
-					I am the Design Team Lead at{" "}
-					<a href="https://www.tedxgpcet.com" target="_blank">
-						TEDxGPCET
-					</a>, where I lead the design efforts for our events and manage the branding. As a{" "}
-					<a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/745f2eb1-624a-44bb-8ac7-868e5d531857" target="_blank">
-						Microsoft Learn Student Ambassador
-					</a>, I organize technical workshops, teaching students about Microsoft technologies and cloud skills.
+					I am the Design Team Lead at <a href="https://www.tedxgpcet.com" target="_blank">TEDxGPCET</a>, where I lead the design efforts for our events and manage the branding. As a <a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/745f2eb1-624a-44bb-8ac7-868e5d531857" target="_blank">Microsoft Learn Student Ambassador</a>, I organize technical workshops, teaching students about Microsoft technologies and cloud skills.
 				</p>
 			</div>
 
