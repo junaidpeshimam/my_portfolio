@@ -4,13 +4,13 @@ import ArrowIcon from "./components/ArrowIcon";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Peshimam Mohammed Junaid - Full Stack Developer",
+	title: "Peshimam Mohammed Junaid - UX/UI Designer and Developer",
 	description:
-		"Peshimam Mohammed Junaid is a Full Stack Developer creating seamless, user-friendly digital experiences. He has contributed to projects like BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
+		"Peshimam Mohammed Junaid is a UX/UI Designer and Developer creating seamless, user-friendly digital experiences. He has contributed to projects like BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
 	openGraph: {
-		title: "Peshimam Mohammed Junaid - Full Stack Developer",
+		title: "Peshimam Mohammed Junaid - UX/UI Designer and Developer",
 		description:
-			"Discover the work and projects of Peshimam Mohammed Junaid, a Full Stack Developer contributing to BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
+			"Discover the work and projects of Peshimam Mohammed Junaid, a UX/UI Designer and Developer contributing to BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
 		url: "https://junaidpeshimam.com", // Replace with your actual URL
 		siteName: "Junaid's Portfolio",
 		images: [
@@ -18,16 +18,16 @@ export const metadata: Metadata = {
 				url: "/ogs/ogs-bg.png", // Add the path to your Open Graph image
 				width: 1200,
 				height: 630,
-				alt: "Peshimam Mohammed Junaid - Full Stack Developer",
+				alt: "Peshimam Mohammed Junaid - UX/UI Designer and Developer",
 			},
 		],
 		type: "website",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Peshimam Mohammed Junaid - Full Stack Developer",
+		title: "Peshimam Mohammed Junaid - UX/UI Designer and Developer",
 		description:
-			"Explore Peshimam Mohammed Junaid’s work as a Full Stack Developer and his projects, including BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
+			"Explore Peshimam Mohammed Junaid’s work as a UX/UI Designer and Developer and his projects, including BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
 		images: ["/ogs/ogs-bg.png"], // Add the path to your Twitter card image
 	},
 };
@@ -40,7 +40,7 @@ export default function Page() {
 			</h1>
 
 			<p className="prose prose-neutral dark:prose-invert">
-				I’m a Full Stack Web Developer from Andhra Pradesh, India, working to build better and smarter web experiences.
+				I’m a UX/UI Designer and Developer from Andhra Pradesh, India, working to build better and smarter web experiences.
 			</p>
 
 			<br />
@@ -49,7 +49,7 @@ export default function Page() {
 				<p>
 					<strong>Work Life</strong>
 					<br />
-					My job is to create user-friendly digital experiences, and I’ve worked on various projects that showcase my technical skills and creativity. Recently, I interned as a <strong>UI/UX Intern</strong> at <strong>BanquetBliss</strong>, where I designed the complete banquet hall website. I have also developed a <strong>Fuel Delivery Bot</strong>, using Python and Google Maps API for location-based fuel delivery, and a <strong>Pitch Potential Predictor</strong> that integrates AI for evaluating business pitches.
+					My job is to create user-friendly digital experiences, and I’ve worked on various projects that showcase my technical skills and creativity. Recently, I interned as a <strong>UI/UX Intern</strong> at <strong>CLUMOSS</strong>, where I designed the interface for <strong>BanquetBliss</strong>. I have also developed a <strong>Fuel Delivery Bot</strong>, using Python and Google Maps API for location-based fuel delivery, and a <strong>Pitch Potential Predictor</strong> that integrates AI for evaluating business pitches.
 				</p>
 			</div>
 
