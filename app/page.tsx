@@ -1,39 +1,39 @@
 import Link from "next/link";
 import Image from "next/image";
-import shriProperty from "public/logos/shriProperty.png";
-import a2infinite from "public/logos/a2infinite.png";
-import tap from "public/logos/tapico.png";
+import banquetBliss from "public/logos/banquetBliss.png";
+import fuelBot from "public/logos/fuelBot.png";
+import pitchPredictor from "public/logos/pitchPredictor.png";
 import Badge from "./components/Badge";
 import ArrowIcon from "./components/ArrowIcon";
-import wt from "public/logos/wt.png";
-import vibraniumsoft from "public/logos/vibraniumsoft.jpeg";
+import tedxgpcet from "public/logos/tedxgpcet.png";
+import microsoft from "public/logos/microsoft.png";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Mohammed Junaid - Full Stack Developer",
+	title: "Peshimam Mohammed Junaid - Full Stack Developer",
 	description:
-		"Mohammed Junaid is a Full Stack Developer working on creating seamless, user-friendly digital experiences. He has contributed to projects like BanquetBliss, ShriProperty, A2INFINITE, and more.",
+		"Peshimam Mohammed Junaid is a Full Stack Developer creating seamless, user-friendly digital experiences. He has contributed to projects like BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
 	openGraph: {
-		title: "Mohammed Junaid - Full Stack Developer",
+		title: "Peshimam Mohammed Junaid - Full Stack Developer",
 		description:
-			"Discover the work and projects of Mohammed Junaid, a Full Stack Developer contributing to BanquetBliss, ShriProperty, A2INFINITE, and other innovative projects.",
+			"Discover the work and projects of Peshimam Mohammed Junaid, a Full Stack Developer contributing to BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
 		url: "https://junaidpeshimam.com", // Replace with your actual URL
-		siteName: "Mohammed Junaid's Portfolio",
+		siteName: "Junaid's Portfolio",
 		images: [
 			{
 				url: "/ogs/ogs-bg.png", // Add the path to your Open Graph image
 				width: 1200,
 				height: 630,
-				alt: "Mohammed Junaid - Full Stack Developer",
+				alt: "Peshimam Mohammed Junaid - Full Stack Developer",
 			},
 		],
 		type: "website",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Mohammed Junaid - Full Stack Developer",
+		title: "Peshimam Mohammed Junaid - Full Stack Developer",
 		description:
-			"Explore Mohammed Junaid’s work as a Full Stack Developer and his projects, including BanquetBliss, ShriProperty, A2INFINITE, and more.",
+			"Explore Peshimam Mohammed Junaid’s work as a Full Stack Developer and his projects, including BanquetBliss, Fuel Delivery Bot, and Pitch Potential Predictor.",
 		images: ["/ogs/ogs-bg.png"], // Add the path to your Twitter card image
 	},
 };
@@ -42,12 +42,11 @@ export default function Page() {
 	return (
 		<section>
 			<h1 className='font-medium text-2xl mb-8 tracking-tight font-["monospace"]'>
-				Sup, I'm Mohammed Junaid 👋
+				Sup, I'm Peshimam Mohammed Junaid 👋
 			</h1>
 
 			<p className="prose prose-neutral dark:prose-invert">
-				I’m a Full Stack Web Developer from Andhra Pradesh, India, trying to make the
-				internet a bit cooler one website at a time.
+				I’m a Full Stack Web Developer from Andhra Pradesh, India, working to build better and smarter web experiences.
 			</p>
 
 			<br />
@@ -56,67 +55,21 @@ export default function Page() {
 				<p>
 					<strong>Work Life</strong>
 					<br />
-					My job is to create user-friendly digital experiences, and I’ve worked
-					on various projects that showcase my technical skills and creativity.
-					Recently, I completed a UI/UX internship at{" "}
+					My job is to create user-friendly digital experiences, and I’ve worked on various projects that showcase my technical skills and creativity. Recently, I interned as a <strong>UI/UX Intern</strong> at{" "}
 					<span className="not-prose">
-						<Badge href="https://www.clumoss.com">
+						<Badge href="#">
 							<Image
-								src={tap}
-								alt="Clumoss"
+								src={banquetBliss}
+								alt="Banquet Bliss"
 								height={16}
 								width={16}
 								className={"pr-1"}
 							/>
-							Clumoss
+							BanquetBliss
 						</Badge>
-					</span>
-					, where I designed a complete banquet hall website. Additionally, I work as a{" "}
-					<strong>Freelance Developer</strong> with{" "}
-					<span className="not-prose">
-						<Badge href="https://www.linkedin.com/company/vibraniumsoft/posts/?feedView=all">
-							<Image
-								src={vibraniumsoft}
-								alt="Vibranium Soft"
-								height={16}
-								width={16}
-								className={"pr-1"}
-							/>
-							Vibranium Soft
-						</Badge>
-					</span>
-					. In my free time, I contribute to open-source projects and experiment with new technologies.
-				</p>
-				<p>
-					One of my proudest achievements is creating
-					<span className="not-prose">
-						<Badge href="https://shriproperty.com">
-							<Image
-								src={shriProperty}
-								alt="shriProperty"
-								height={16}
-								width={16}
-								className={"pr-1"}
-							/>
-							ShriProperty
-						</Badge>
-					</span>
-					, a real estate website that simplifies finding a dream home. I also
-					built
-					<span className="not-prose">
-						<Badge href="https://www.a2infinite.com/">
-							<Image
-								src={a2infinite}
-								alt="A2INFINITE"
-								height={16}
-								width={16}
-								className={"pr-1"}
-							/>
-							A2INFINITE
-						</Badge>
-					</span>
-					, a platform for educational worksheets, making learning more
-					accessible.
+					</span>, where I designed the complete banquet hall website. I have also developed a{" "}
+					<strong>Fuel Delivery Bot</strong>, using Python and Google Maps API for location-based fuel delivery, and a{" "}
+					<strong>Pitch Potential Predictor</strong> that integrates AI for evaluating business pitches.
 				</p>
 			</div>
 
@@ -124,15 +77,13 @@ export default function Page() {
 				<p>
 					<strong>Leadership and Community Involvement:</strong>
 					<br />
-					As the Design Team Lead at{" "}
-					<a href="http://www.tedxgpcet.com" target="_blank">
+					I am the Design Team Lead at{" "}
+					<a href="https://www.tedxgpcet.com" target="_blank">
 						TEDxGPCET
-					</a>{" "}
-					I’ve led a team to design branding materials and improve event visibility. I’m also a{" "}
+					</a>, where I lead the design efforts for our events and manage the branding. As a{" "}
 					<a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/745f2eb1-624a-44bb-8ac7-868e5d531857" target="_blank">
 						Microsoft Learn Student Ambassador
-					</a>
-					, where I organize workshops to help students improve their tech skills.
+					</a>, I organize technical workshops, teaching students about Microsoft technologies and cloud skills.
 				</p>
 			</div>
 
@@ -140,16 +91,13 @@ export default function Page() {
 				<p>
 					<strong>Personal Interests:</strong>
 					<br />
-					Away from work, I explore new technologies, websites, and play chess to unwind. I also write articles
-					that aim to help aspiring engineers grow in their careers.
+					When I’m not working on code, I’m exploring new technologies, websites, or playing chess. I am also passionate about staying involved with open-source projects and continuously learning.
 				</p>
 			</div>
 
 			<div className="prose prose-neutral dark:prose-invert">
 				<p>
-					I’ve been trying my hand at <Link href="/blog">writing</Link>{" "}
-					articles that aim to help people become better engineers, regardless
-					of their career paths. Stay tuned for more content!
+					I’ve also been trying my hand at <Link href="/blog">writing</Link> articles that aim to help developers improve their skills, regardless of their career paths.
 				</p>
 			</div>
 
