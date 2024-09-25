@@ -10,30 +10,30 @@ import vibraniumsoft from "public/logos/vibraniumsoft.jpeg";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Ayush Chugh - Full Stack Developer",
+	title: "Mohammed Junaid - Full Stack Developer",
 	description:
-		"Ayush Chugh is a Full Stack Developer working on creating seamless, user-friendly digital experiences. He has contributed to projects like Tap Invest, ShriProperty, A2INFINITE, and Worldtravels.",
+		"Mohammed Junaid is a Full Stack Developer working on creating seamless, user-friendly digital experiences. He has contributed to projects like BanquetBliss, ShriProperty, A2INFINITE, and more.",
 	openGraph: {
-		title: "Ayush Chugh - Full Stack Developer",
+		title: "Mohammed Junaid - Full Stack Developer",
 		description:
-			"Discover the work and projects of Ayush Chugh, a Full Stack Developer contributing to Tap Invest, ShriProperty, A2INFINITE, and Worldtravels.",
-		url: "https://ayushchugh.com", // Replace with your actual URL
-		siteName: "Ayush Chugh's Portfolio",
+			"Discover the work and projects of Mohammed Junaid, a Full Stack Developer contributing to BanquetBliss, ShriProperty, A2INFINITE, and other innovative projects.",
+		url: "https://junaidpeshimam.com", // Replace with your actual URL
+		siteName: "Mohammed Junaid's Portfolio",
 		images: [
 			{
 				url: "/ogs/ogs-bg.png", // Add the path to your Open Graph image
 				width: 1200,
 				height: 630,
-				alt: "Ayush Chugh - Full Stack Developer",
+				alt: "Mohammed Junaid - Full Stack Developer",
 			},
 		],
 		type: "website",
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "Ayush Chugh - Full Stack Developer",
+		title: "Mohammed Junaid - Full Stack Developer",
 		description:
-			"Explore Ayush Chugh’s work as a Full Stack Developer and his projects, including Tap Invest, ShriProperty, A2INFINITE, and Worldtravels.",
+			"Explore Mohammed Junaid’s work as a Full Stack Developer and his projects, including BanquetBliss, ShriProperty, A2INFINITE, and more.",
 		images: ["/ogs/ogs-bg.png"], // Add the path to your Twitter card image
 	},
 };
@@ -42,11 +42,11 @@ export default function Page() {
 	return (
 		<section>
 			<h1 className='font-medium text-2xl mb-8 tracking-tight font-["monospace"]'>
-				Sup, I'm Ayush Chugh 👋
+				Sup, I'm Mohammed Junaid 👋
 			</h1>
 
 			<p className="prose prose-neutral dark:prose-invert">
-				I’m a Full Stack Web Developer from Mohali, India, trying to make the
+				I’m a Full Stack Web Developer from Andhra Pradesh, India, trying to make the
 				internet a bit cooler one website at a time.
 			</p>
 
@@ -58,21 +58,21 @@ export default function Page() {
 					<br />
 					My job is to create user-friendly digital experiences, and I’ve worked
 					on various projects that showcase my technical skills and creativity.
-					Currently, I work as a <strong>Consultant</strong> at{" "}
+					Recently, I completed a UI/UX internship at{" "}
 					<span className="not-prose">
-						<Badge href="https://tapinvest.in">
+						<Badge href="https://www.clumoss.com">
 							<Image
 								src={tap}
-								alt="Tap Invest"
+								alt="Clumoss"
 								height={16}
 								width={16}
 								className={"pr-1"}
 							/>
-							Tap Invest
+							Clumoss
 						</Badge>
 					</span>
-					, where I contribute to creating seamless digital solutions.
-					Alongside, I also work as a <strong>Freelance Developer</strong> with{" "}
+					, where I designed a complete banquet hall website. Additionally, I work as a{" "}
+					<strong>Freelance Developer</strong> with{" "}
 					<span className="not-prose">
 						<Badge href="https://www.linkedin.com/company/vibraniumsoft/posts/?feedView=all">
 							<Image
@@ -85,8 +85,7 @@ export default function Page() {
 							Vibranium Soft
 						</Badge>
 					</span>
-					. In my free time, I contribute to open-source projects, keeping
-					myself engaged in innovative collaborations.
+					. In my free time, I contribute to open-source projects and experiment with new technologies.
 				</p>
 				<p>
 					One of my proudest achievements is creating
@@ -125,20 +124,15 @@ export default function Page() {
 				<p>
 					<strong>Leadership and Community Involvement:</strong>
 					<br />
-					As the Team Lead at the Innovation Club of{" "}
-					<a href="https://ccetdiploma.edu.in/" target="_blank">
-						CCET
+					As the Design Team Lead at{" "}
+					<a href="http://www.tedxgpcet.com" target="_blank">
+						TEDxGPCET
 					</a>{" "}
-					College, I’ve learned how to lead a team and stay organized. I also
-					assist in{" "}
-					<a href="https://chdtechnicaleducation.gov.in/" target="_blank">
-						ICT
-					</a>{" "}
-					training sessions, where I teach government employees how to use
-					computers effectively. Additionally, I help organize the{" "}
-					<i>Talent Hunt</i>
-					cultural program and serve as the student coordinator for{" "}
-					<i>Jhalak</i>, our college’s digital newsletter.
+					I’ve led a team to design branding materials and improve event visibility. I’m also a{" "}
+					<a href="https://mvp.microsoft.com/en-US/studentambassadors/profile/745f2eb1-624a-44bb-8ac7-868e5d531857" target="_blank">
+						Microsoft Learn Student Ambassador
+					</a>
+					, where I organize workshops to help students improve their tech skills.
 				</p>
 			</div>
 
@@ -146,16 +140,14 @@ export default function Page() {
 				<p>
 					<strong>Personal Interests:</strong>
 					<br />
-					When I’m not working on code, I’m either exploring my interest in
-					Vedic astrology or spending time with friends. I also enjoy playing
-					the guitar, which helps me unwind after a long day. I’m currently
-					pursuing a diploma in Computer Science Engineering (CSE)
+					Away from work, I explore new technologies, websites, and play chess to unwind. I also write articles
+					that aim to help aspiring engineers grow in their careers.
 				</p>
 			</div>
 
 			<div className="prose prose-neutral dark:prose-invert">
 				<p>
-					I’ve also been trying my hand at <Link href="/blog">writing</Link>{" "}
+					I’ve been trying my hand at <Link href="/blog">writing</Link>{" "}
 					articles that aim to help people become better engineers, regardless
 					of their career paths. Stay tuned for more content!
 				</p>
@@ -173,7 +165,7 @@ export default function Page() {
 						className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all"
 						rel="noopener noreferrer"
 						target="_blank"
-						href="https://twitter.com/aayushchugh_x"
+						href="https://twitter.com/junaidpeshimam"
 					>
 						<ArrowIcon />
 						<p className="h-7 ml-2">Follow me</p>
@@ -186,11 +178,11 @@ export default function Page() {
 					className="flex items-center hover:text-neutral-800 dark:hover:text-neutral-100 transition-all text-neutral-600 dark:text-neutral-300 mt-3"
 					rel="noopener noreferrer"
 					target="_blank"
-					href="mailto:hey@ayushchugh.com?subject=Hello Ayush!"
+					href="mailto:junaidpeshimam@gmail.com?subject=Hello Junaid!"
 				>
 					<p className="h-7">
 						<span className="mr-2 text-neutral-600">📧</span>
-						hey@ayushchugh.com
+						junaidpeshimam@gmail.com
 					</p>
 				</a>
 			</div>
