@@ -82,7 +82,7 @@ export default function RootLayout({
 					{/* Google Analytics Script */}
 
 					{/* <Script
-						src={`https://www.googletagmanager.com/gtag/js?id=G-WRQGFF6ZSV`} // Replace with your Google Analytics ID
+						src={`https://www.googletagmanager.com/gtag/js?id=`} // Replace with your Google Analytics ID
 						strategy="afterInteractive" // Ensures it loads after the page renders
 					/>
 					<Script id="google-analytics" strategy="afterInteractive">
@@ -90,7 +90,7 @@ export default function RootLayout({
 						window.dataLayer = window.dataLayer || [];
 						function gtag(){dataLayer.push(arguments);}
 						gtag('js', new Date());
-						gtag('config', 'G-WRQGFF6ZSV'); // Replace with your Google Analytics ID
+						gtag('config', ''); // Replace with your Google Analytics ID
 					`}
 					</Script> */}
 				</head>
@@ -104,7 +104,7 @@ export default function RootLayout({
 					<PreloadResources />
 				</main>
 			</body>
-			<GoogleAnalytics gaId="G-WRQGFF6ZSV" />
+			<GoogleAnalytics gaId="" />
 		</html>
 	);
 }
